@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Github.css'
 import {Route} from 'react-router-dom'
 import GithubUser from './GithubUser'
 
