@@ -1,24 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+
 .App {
   text-align: center;
+  font-family: "Gentium Book Basic", serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  font-style: bold;
 }
 
-.App-header {
+h3 {
+  font-style: italic;
+}
+
+.App-headings {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
