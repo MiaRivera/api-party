@@ -24,9 +24,9 @@ class App extends Component {
           <li>
             <NavLink to="/nasa">NASA API</NavLink>
           </li>
-          <li>
+          {/*<li>
             <NavLink to="/yoda">Yoda API</NavLink>
-          </li>
+          </li>*/}
           <li>
             <NavLink to="/pokemon">Pokemon API</NavLink>
           </li>

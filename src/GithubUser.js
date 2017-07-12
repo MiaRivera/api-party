@@ -18,7 +18,7 @@ import './GithubUser.css'
        .then(user => this.setState({ user }))
    } 
 
-   componentWillRecieveProps(nextProps) {
+   componentWillReceiveProps(nextProps) {
        const locationChanged = nextProps.location !== this.props.location
        if(locationChanged) {
            this.fetchUserData(nextProps)
